@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f2f2f2;
+    margin: 0;
+    padding: 40px;
+    color: #000;
+}
+
+/* Resume Container */
+.resume {
+    max-width: 900px;
+    margin: auto;
+    background: #fff;
+
+    /* 🔥 Main Border */
+    border: 2px solid #000;
+
+    /* Inner spacing */
+    padding: 30px;
+
+    /* Optional subtle shadow */
+    box-shadow: 0 0 8px rgba(0,0,0,0.1);
+
+    line-height: 1.5;
+}
+
+/* Name */
+h1 {
+    font-size: 24px;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+
+    /* underline effect */
+    border-bottom: 2px solid #000;
+    padding-bottom: 5px;
+}
+
+/* Contact */
+.contact {
+    font-size: 13px;
+    margin-bottom: 15px;
+}
+
+/* Section Titles */
+h2 {
+    font-size: 14px;
+    margin-top: 18px;
+    margin-bottom: 6px;
+    font-weight: bold;
+
+    /* Section divider line */
+    border-bottom: 1px solid #000;
+    padding-bottom: 3px;
+}
+
+/* Paragraph */
+p {
+    font-size: 13px;
+    margin-bottom: 8px;
+}
+
+/* Lists */
+ul {
+    margin-left: 18px;
+    margin-bottom: 10px;
+}
+
+ul li {
+    font-size: 13px;
+    margin-bottom: 4px;
+}

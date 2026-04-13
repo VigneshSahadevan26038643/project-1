@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Smart To-Do App</title>
+<link rel="stylesheet" href="app.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Smart To-Do 🚀</h1>
+
+    <input type="text" id="taskInput" placeholder="Enter task">
+    <input type="date" id="dueDate">
+
+    <select id="priority">
+        <option value="low">Low</option>
+        <option value="medium">Medium</option>
+        <option value="high">High</option>
+    </select>
+
+    <button onclick="addTask()">Add</button>
+
+    <input type="text" id="search" placeholder="Search tasks...">
+
+    <div class="filters">
+        <button onclick="filterTasks('all')">All</button>
+        <button onclick="filterTasks('completed')">Completed</button>
+        <button onclick="filterTasks('pending')">Pending</button>
+    </div>
+
+    <h3 id="stats"></h3>
+
+    <ul id="taskList"></ul>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
